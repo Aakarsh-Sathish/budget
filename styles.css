@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #6886c5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.containers {
+    margin: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.details {
+    margin-top: 4rem;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    justify-content: center;
+    padding: 5rem 2rem;
+}
+
+input[type=text] {
+    width: 70%
+}
+
+input {
+    height: 3rem;
+    border-radius: 5%;
+    margin: 0.6rem;
+}
+
+select {
+    height: 2.2rem;
+    width: 12%;
+}
+
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+button:hover {
+    color: blue;
+}
+
+.budget__income {
+    color: #333;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+
+}
+
+.budget_value {
+    background-color: yellowgreen;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    /* padding: 1rem 0rem; */
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.budget__expenses {
+    color: #333;
+    background-color: tomato;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 4rem;
+    font-size: 1.5rem;
+
+}
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+}
+
+.inc:nth-child(odd) {
+    background-color: darkgrey;
+    color: black;
+}
+
+.inc:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
+
+/* .income-list:nth-child(odd) {
+    background-color: darkgray;
+    color: black;
+} */
+
+.exp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+}
+
+.exp:nth-child(odd) {
+    background-color: darkgrey;
+    color: black;
+}
+
+.exp:nth-child(even) {
+    background-color: #333;
+    color: white;
+}
